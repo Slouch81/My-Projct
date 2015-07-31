@@ -1,0 +1,36 @@
+<!doctype>
+<html>
+  <title>Profile Page</title>
+  <head>
+    <link rel="stylesheet" href="../public/stylesheets/stylesheet2.css">
+  </head>
+    <body>
+      <h1>Create A Profile</h1>
+      <form action="/profile/edit" method="POST">
+        <div class="first">
+          <label for="first_name">First Name</label><br/>
+          <input text="first_name" name="first_name" id="first_name" placeholder="first" value="">
+        </div><br/>
+        <div class="last">
+          <label for="last_name">Last Name</label><br/>
+          <input text="last_name" name="last_name" id="last_name" placeholder="last">
+        </div><br/>
+        <div class="gender">
+          <input type="radio" name="sex" id="male">Male
+          <input type="radio" name="sex" id="female">Female
+        </div><br/>
+        <div class="email">
+          <label for="email">Enter Email</label><br/>
+          <input type="text" name="email" id="email" placeholder="youremail@domain.com" value="">
+        </div><br/>
+        <div class="password">  
+          <label for="password">Enter Password</label><br/>
+          <input type="text" name="password" id="password" placeholder="password">
+        </div><br/>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </body>
+</html>
+
